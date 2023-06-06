@@ -1,0 +1,73 @@
+{
+	"@xsfopen" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%2"
+
+			}
+		]
+	},
+	"@xsfclose" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "i32",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%2"
+
+			}
+		]
+	},
+	"@xsfprintf" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%1" : {
+				"type" : "",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "i32",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%1"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%3"
+
+			},
+			{
+				"node 1" : "%1",
+				"node 2" : "%3"
+
+			}
+		]
+	}
+}

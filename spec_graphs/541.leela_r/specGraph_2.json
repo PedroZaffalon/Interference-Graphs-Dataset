@@ -1,0 +1,91 @@
+{
+	"@_ZN3SMP5MutexC2Ev" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%2"
+
+			}
+		]
+	},
+	"@_ZN3SMP4LockC2ERNS_5MutexE" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%1" : {
+				"type" : "",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%1"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%3"
+
+			},
+			{
+				"node 1" : "%1",
+				"node 2" : "%3"
+
+			}
+		]
+	},
+	"@_ZN3SMP4LockD2Ev" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "",
+				"deepness of uses" : [0, 0]
+			},
+			"%4" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%2"
+
+			},
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			},
+			{
+				"node 1" : "%3",
+				"node 2" : "%4"
+
+			}
+		]
+	}
+}
