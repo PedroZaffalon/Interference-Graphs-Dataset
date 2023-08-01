@@ -3,82 +3,77 @@
 		"nodes" : {
 			"%1" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%2" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%3" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 4}
+				"deepness of uses" : [0, 0, 0, 0]
 			},
 			"%4" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%5" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%6" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%7" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%8" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%9" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 4}
+				"deepness of uses" : [0, 0, 0, 0]
 			},
 			"%10" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%11" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%12" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%13" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%14" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%15" : {
 				"type" : "i8",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%16" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%17" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			}
 		},
 		"edges" : [
 			{
 				"node 1" : "%1",
 				"node 2" : "%2"
-
-			},
-			{
-				"node 1" : "%2",
-				"node 2" : "%1"
 
 			},
 			{
@@ -152,28 +147,8 @@
 
 			},
 			{
-				"node 1" : "%4",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%5",
-				"node 2" : "%3"
-
-			},
-			{
 				"node 1" : "%5",
 				"node 2" : "%6"
-
-			},
-			{
-				"node 1" : "%6",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%6",
-				"node 2" : "%5"
 
 			},
 			{
@@ -198,52 +173,12 @@
 			},
 			{
 				"node 1" : "%7",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%6"
-
-			},
-			{
-				"node 1" : "%7",
 				"node 2" : "%8"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%6"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%7"
 
 			},
 			{
 				"node 1" : "%8",
 				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%6"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%8"
 
 			},
 			{
@@ -282,123 +217,23 @@
 
 			},
 			{
-				"node 1" : "%10",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%10",
-				"node 2" : "%6"
-
-			},
-			{
-				"node 1" : "%10",
-				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%11",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%11",
-				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%12",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%12",
-				"node 2" : "%9"
-
-			},
-			{
 				"node 1" : "%12",
 				"node 2" : "%13"
-
-			},
-			{
-				"node 1" : "%13",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%13",
-				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%13",
-				"node 2" : "%12"
 
 			},
 			{
 				"node 1" : "%13",
 				"node 2" : "%14"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%13"
 
 			},
 			{
 				"node 1" : "%14",
 				"node 2" : "%15"
-
-			},
-			{
-				"node 1" : "%15",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%15",
-				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%15",
-				"node 2" : "%14"
 
 			},
 			{
 				"node 1" : "%15",
 				"node 2" : "%16"
-
-			},
-			{
-				"node 1" : "%16",
-				"node 2" : "%3"
-
-			},
-			{
-				"node 1" : "%16",
-				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%16",
-				"node 2" : "%15"
-
-			},
-			{
-				"node 1" : "%17",
-				"node 2" : "%3"
 
 			}
 		]

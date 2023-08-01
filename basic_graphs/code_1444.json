@@ -1,0 +1,80 @@
+{
+	"@_Z21throw_inside_noexceptv" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			},
+			"%7" : {
+				"type" : "label",
+				"deepness of uses" : [0]
+			},
+			"%4" : {
+				"type" : "label",
+				"deepness of uses" : [0]
+			},
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%5" : {
+				"type" : "i32",
+				"deepness of uses" : [0, 0]
+			},
+			"%6" : {
+				"type" : "i32",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%1",
+				"node 2" : "%2"
+
+			},
+			{
+				"node 1" : "%7",
+				"node 2" : "%4"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%5"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%6"
+
+			},
+			{
+				"node 1" : "%5",
+				"node 2" : "%6"
+
+			}
+		]
+	},
+	"hidden" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%2"
+
+			}
+		]
+	}
+}

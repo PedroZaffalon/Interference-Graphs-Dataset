@@ -1,0 +1,44 @@
+{
+	"@_Z3fooi" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "",
+				"deepness of uses" : [0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			}
+		]
+	},
+	"@main" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0, 0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%1",
+				"node 2" : "%2"
+
+			}
+		]
+	}
+}

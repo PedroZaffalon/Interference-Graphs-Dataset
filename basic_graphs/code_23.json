@@ -3,71 +3,71 @@
 		"nodes" : {
 			"%1" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 3, "2": 4}
+				"deepness of uses" : [0, 0, 0, 1, 1, 1, 1]
 			},
 			"%2" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%3" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%4" : {
 				"type" : "ptr",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%5" : {
 				"type" : "label",
-				"uses by deepness" : {"1": 1, "2": 3}
+				"deepness of uses" : [0, 1, 1, 1]
 			},
 			"%11" : {
 				"type" : "label",
-				"uses by deepness" : {"1": 1, "2": 2}
+				"deepness of uses" : [0, 1, 1]
 			},
 			"%0" : {
 				"type" : "label",
-				"uses by deepness" : {"1": 1, "2": 1}
+				"deepness of uses" : [0, 1]
 			},
 			"%.0" : {
 				"type" : "i32",
-				"uses by deepness" : {"2": 3}
+				"deepness of uses" : [1, 1, 1]
 			},
 			"%10" : {
 				"type" : "i32",
-				"uses by deepness" : {"2": 2}
+				"deepness of uses" : [1, 1]
 			},
 			"%6" : {
 				"type" : "ptr",
-				"uses by deepness" : {"2": 2}
+				"deepness of uses" : [1, 1]
 			},
 			"%7" : {
 				"type" : "label",
-				"uses by deepness" : {"2": 2}
+				"deepness of uses" : [1, 1]
 			},
 			"%8" : {
 				"type" : "label",
-				"uses by deepness" : {"2": 2}
+				"deepness of uses" : [1, 1]
 			},
 			"%14" : {
 				"type" : "label",
-				"uses by deepness" : {"2": 1}
+				"deepness of uses" : [1]
 			},
 			"%9" : {
 				"type" : "ptr",
-				"uses by deepness" : {"2": 2}
+				"deepness of uses" : [1, 1]
 			},
 			"%12" : {
 				"type" : "ptr",
-				"uses by deepness" : {"2": 2}
+				"deepness of uses" : [1, 1]
 			},
 			"%13" : {
 				"type" : "ptr",
-				"uses by deepness" : {"2": 2}
+				"deepness of uses" : [1, 1]
 			},
 			"%15" : {
 				"type" : "i32",
-				"uses by deepness" : {"2": 1}
+				"deepness of uses" : [1]
 			}
 		},
 		"edges" : [
@@ -147,26 +147,6 @@
 
 			},
 			{
-				"node 1" : "%2",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%3",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%4",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%5",
-				"node 2" : "%1"
-
-			},
-			{
 				"node 1" : "%5",
 				"node 2" : "%11"
 
@@ -223,16 +203,6 @@
 			},
 			{
 				"node 1" : "%11",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%11",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%11",
 				"node 2" : "%0"
 
 			},
@@ -273,47 +243,12 @@
 			},
 			{
 				"node 1" : "%0",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%0",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%0",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%0",
 				"node 2" : "%.0"
 
 			},
 			{
 				"node 1" : "%0",
 				"node 2" : "%10"
-
-			},
-			{
-				"node 1" : "%.0",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%.0",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%.0",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%.0",
-				"node 2" : "%0"
 
 			},
 			{
@@ -363,31 +298,6 @@
 			},
 			{
 				"node 1" : "%10",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%10",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%10",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%10",
-				"node 2" : "%0"
-
-			},
-			{
-				"node 1" : "%10",
-				"node 2" : "%.0"
-
-			},
-			{
-				"node 1" : "%10",
 				"node 2" : "%6"
 
 			},
@@ -413,62 +323,7 @@
 			},
 			{
 				"node 1" : "%6",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%6",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%6",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%6",
-				"node 2" : "%.0"
-
-			},
-			{
-				"node 1" : "%6",
-				"node 2" : "%10"
-
-			},
-			{
-				"node 1" : "%6",
 				"node 2" : "%7"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%.0"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%10"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%6"
 
 			},
 			{
@@ -479,36 +334,6 @@
 			{
 				"node 1" : "%7",
 				"node 2" : "%14"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%.0"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%10"
-
-			},
-			{
-				"node 1" : "%8",
-				"node 2" : "%7"
 
 			},
 			{
@@ -519,116 +344,11 @@
 			{
 				"node 1" : "%8",
 				"node 2" : "%9"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%.0"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%10"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%7"
-
-			},
-			{
-				"node 1" : "%14",
-				"node 2" : "%8"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%11"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%.0"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%10"
-
-			},
-			{
-				"node 1" : "%9",
-				"node 2" : "%8"
-
-			},
-			{
-				"node 1" : "%12",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%12",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%12",
-				"node 2" : "%.0"
 
 			},
 			{
 				"node 1" : "%12",
 				"node 2" : "%13"
-
-			},
-			{
-				"node 1" : "%13",
-				"node 2" : "%1"
-
-			},
-			{
-				"node 1" : "%13",
-				"node 2" : "%5"
-
-			},
-			{
-				"node 1" : "%13",
-				"node 2" : "%.0"
-
-			},
-			{
-				"node 1" : "%13",
-				"node 2" : "%12"
-
-			},
-			{
-				"node 1" : "%15",
-				"node 2" : "%.0"
 
 			}
 		]

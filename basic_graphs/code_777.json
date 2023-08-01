@@ -1,0 +1,69 @@
+{
+	"@main" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0, 0]
+			},
+			"%3" : {
+				"type" : "i32",
+				"deepness of uses" : [0]
+			},
+			"%4" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0, 0]
+			},
+			"%5" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0, 0]
+			},
+			"%6" : {
+				"type" : "i32",
+				"deepness of uses" : [0]
+			},
+			"%7" : {
+				"type" : "i32",
+				"deepness of uses" : [0]
+			},
+			"%8" : {
+				"type" : "",
+				"deepness of uses" : [0, 0]
+			},
+			"%9" : {
+				"type" : "i32",
+				"deepness of uses" : [0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			},
+			{
+				"node 1" : "%4",
+				"node 2" : "%5"
+
+			},
+			{
+				"node 1" : "%4",
+				"node 2" : "%6"
+
+			},
+			{
+				"node 1" : "%5",
+				"node 2" : "%6"
+
+			},
+			{
+				"node 1" : "%5",
+				"node 2" : "%7"
+
+			}
+		]
+	}
+}

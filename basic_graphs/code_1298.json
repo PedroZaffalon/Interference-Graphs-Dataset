@@ -1,0 +1,25 @@
+{
+	"@main" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "i32",
+				"deepness of uses" : [0]
+			},
+			"%2" : {
+				"type" : "double",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "i32",
+				"deepness of uses" : [0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			}
+		]
+	}
+}

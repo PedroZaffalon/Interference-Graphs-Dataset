@@ -3,35 +3,35 @@
 		"nodes" : {
 			"%1" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%2" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%3" : {
 				"type" : "float",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%4" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%5" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%6" : {
 				"type" : "i8",
-				"uses by deepness" : {"1": 2}
+				"deepness of uses" : [0, 0]
 			},
 			"%7" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			},
 			"%8" : {
 				"type" : "i32",
-				"uses by deepness" : {"1": 1}
+				"deepness of uses" : [0]
 			}
 		},
 		"edges" : [
@@ -41,18 +41,8 @@
 
 			},
 			{
-				"node 1" : "%4",
-				"node 2" : "%3"
-
-			},
-			{
 				"node 1" : "%6",
 				"node 2" : "%7"
-
-			},
-			{
-				"node 1" : "%7",
-				"node 2" : "%6"
 
 			}
 		]

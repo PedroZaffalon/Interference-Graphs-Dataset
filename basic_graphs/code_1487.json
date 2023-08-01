@@ -1,0 +1,40 @@
+{
+	"@_Z3foo1B" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "",
+				"deepness of uses" : [0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%1",
+				"node 2" : "%2"
+
+			}
+		]
+	},
+	"@main" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "ptr",
+				"deepness of uses" : [0, 0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%1",
+				"node 2" : "%2"
+
+			}
+		]
+	}
+}

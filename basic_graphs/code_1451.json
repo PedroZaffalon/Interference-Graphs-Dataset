@@ -1,0 +1,118 @@
+{
+	"@_Z11to_integralf" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0, 0]
+			},
+			"%2" : {
+				"type" : "float",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "",
+				"deepness of uses" : [0]
+			},
+			"%4" : {
+				"type" : "float",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%2"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%3"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%4"
+
+			},
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			}
+		]
+	},
+	"@_Z11to_integrald" : 	{
+		"nodes" : {
+			"%0" : {
+				"type" : "label",
+				"deepness of uses" : [0, 0, 0]
+			},
+			"%2" : {
+				"type" : "double",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "",
+				"deepness of uses" : [0]
+			},
+			"%4" : {
+				"type" : "double",
+				"deepness of uses" : [0, 0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%0",
+				"node 2" : "%2"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%3"
+
+			},
+			{
+				"node 1" : "%0",
+				"node 2" : "%4"
+
+			},
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			}
+		]
+	},
+	"@main" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "i32",
+				"deepness of uses" : [0]
+			},
+			"%2" : {
+				"type" : "i32",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "i32",
+				"deepness of uses" : [0, 0]
+			},
+			"%4" : {
+				"type" : "",
+				"deepness of uses" : [0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			},
+			{
+				"node 1" : "%3",
+				"node 2" : "%4"
+
+			}
+		]
+	}
+}

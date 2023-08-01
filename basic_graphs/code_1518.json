@@ -1,0 +1,30 @@
+{
+	"@main" : 	{
+		"nodes" : {
+			"%1" : {
+				"type" : "double",
+				"deepness of uses" : [0, 0]
+			},
+			"%2" : {
+				"type" : "double",
+				"deepness of uses" : [0, 0]
+			},
+			"%3" : {
+				"type" : "double",
+				"deepness of uses" : [0]
+			}
+		},
+		"edges" : [
+			{
+				"node 1" : "%1",
+				"node 2" : "%2"
+
+			},
+			{
+				"node 1" : "%2",
+				"node 2" : "%3"
+
+			}
+		]
+	}
+}

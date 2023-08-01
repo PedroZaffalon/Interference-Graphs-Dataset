@@ -1,0 +1,103 @@
+; ModuleID = '/home/pedro/tcc/exDataset/sample/sample/C-Programming-master/141021/PIT.ll'
+source_filename = "/home/pedro/tcc/exDataset/sample/sample/C-Programming-master/141021/PIT.c"
+target datalayout = "e-m:e-i64:64-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-pc-linux-gnu"
+
+@.str = private unnamed_addr constant [34 x i8] c"Please input your salary number: \00", align 1
+@.str.1 = private unnamed_addr constant [3 x i8] c"%d\00", align 1
+@.str.2 = private unnamed_addr constant [17 x i8] c"No tax require!\0A\00", align 1
+@.str.3 = private unnamed_addr constant [35 x i8] c"Personal income tax is %.1f yuan!\0A\00", align 1
+
+; Function Attrs: noinline nounwind uwtable
+define i32 @main() #0 {
+  %1 = alloca i32, align 4
+  %2 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([34 x i8], [34 x i8]* @.str, i32 0, i32 0))
+  %3 = call i32 (i8*, ...) @__isoc99_scanf(i8* getelementptr inbounds ([3 x i8], [3 x i8]* @.str.1, i32 0, i32 0), i32* %1)
+  %4 = load i32, i32* %1, align 4
+  %5 = icmp sle i32 %4, 3000
+  br i1 %5, label %6, label %8
+
+6:                                                ; preds = %0
+  %7 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([17 x i8], [17 x i8]* @.str.2, i32 0, i32 0))
+  br label %46
+
+8:                                                ; preds = %0
+  %9 = load i32, i32* %1, align 4
+  %10 = sub nsw i32 %9, 3000
+  %11 = sub nsw i32 %10, 1
+  %12 = sdiv i32 %11, 500
+  switch i32 %12, label %37 [
+    i32 0, label %13
+    i32 1, label %19
+    i32 2, label %19
+    i32 3, label %25
+    i32 4, label %25
+    i32 5, label %25
+    i32 6, label %31
+    i32 7, label %31
+    i32 8, label %31
+    i32 9, label %31
+  ]
+
+13:                                               ; preds = %8
+  %14 = load i32, i32* %1, align 4
+  %15 = sub nsw i32 %14, 3000
+  %16 = sitofp i32 %15 to double
+  %17 = fmul double %16, 5.000000e-02
+  %18 = fptrunc double %17 to float
+  br label %43
+
+19:                                               ; preds = %8, %8
+  %20 = load i32, i32* %1, align 4
+  %21 = sub nsw i32 %20, 3000
+  %22 = sitofp i32 %21 to double
+  %23 = fmul double %22, 1.000000e-01
+  %24 = fptrunc double %23 to float
+  br label %43
+
+25:                                               ; preds = %8, %8, %8
+  %26 = load i32, i32* %1, align 4
+  %27 = sub nsw i32 %26, 3000
+  %28 = sitofp i32 %27 to double
+  %29 = fmul double %28, 1.500000e-01
+  %30 = fptrunc double %29 to float
+  br label %43
+
+31:                                               ; preds = %8, %8, %8, %8
+  %32 = load i32, i32* %1, align 4
+  %33 = sub nsw i32 %32, 3000
+  %34 = sitofp i32 %33 to double
+  %35 = fmul double %34, 2.000000e-01
+  %36 = fptrunc double %35 to float
+  br label %43
+
+37:                                               ; preds = %8
+  %38 = load i32, i32* %1, align 4
+  %39 = sub nsw i32 %38, 3000
+  %40 = sitofp i32 %39 to double
+  %41 = fmul double %40, 2.500000e-01
+  %42 = fptrunc double %41 to float
+  br label %43
+
+43:                                               ; preds = %37, %31, %25, %19, %13
+  %.0 = phi float [ %42, %37 ], [ %36, %31 ], [ %30, %25 ], [ %24, %19 ], [ %18, %13 ]
+  %44 = fpext float %.0 to double
+  %45 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([35 x i8], [35 x i8]* @.str.3, i32 0, i32 0), double %44)
+  br label %46
+
+46:                                               ; preds = %43, %6
+  ret i32 0
+}
+
+declare i32 @printf(i8*, ...) #1
+
+declare i32 @__isoc99_scanf(i8*, ...) #1
+
+attributes #0 = { noinline nounwind uwtable "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "less-precise-fpmad"="false" "no-frame-pointer-elim"="true" "no-frame-pointer-elim-non-leaf" "no-infs-fp-math"="false" "no-jump-tables"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+attributes #1 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-calls"="false" "less-precise-fpmad"="false" "no-frame-pointer-elim"="true" "no-frame-pointer-elim-non-leaf" "no-infs-fp-math"="false" "no-nans-fp-math"="false" "no-signed-zeros-fp-math"="false" "no-trapping-math"="false" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+fxsr,+mmx,+sse,+sse2,+x87" "unsafe-fp-math"="false" "use-soft-float"="false" }
+
+!llvm.module.flags = !{!0}
+!llvm.ident = !{!1}
+
+!0 = !{i32 1, !"wchar_size", i32 4}
+!1 = !{!"clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)"}
