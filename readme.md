@@ -2,11 +2,11 @@
 ---
 #### A PBQP interference graph dataset for machine learning models to solve register allocation.
 
-This dataset contains 5987 code files, or 24688 functions interference graphs. This dataset is organized as follows:
+This dataset contains 5889 code files, or 24688 functions interference graphs. This dataset is organized as follows:
 
 - 3939 code files (18939 functions interference graphs) from [CodeNet dataset](https://developer.ibm.com/data/project-codenet/); 
 - 1556 code files (3549 functions interference graphs) from programming logic exercises; 
-- 493 code files (2200 functions interference graphs) from SPEC CPU 2017 benchmarks. 
+- 395 code files (2200 functions interference graphs) from SPEC CPU 2017 benchmarks. 
 
 ---
 
