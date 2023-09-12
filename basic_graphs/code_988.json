@@ -3,79 +3,98 @@
 		"nodes" : {
 			"%0" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [1, 2],
+				"uses deepness" : [0, 0]
 			},
 			"%2" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [2, 3],
+				"uses deepness" : [0, 0]
 			},
 			"%3" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 1]
+				"uses" : [3, 16],
+				"uses deepness" : [0, 1]
 			},
 			"%4" : {
 				"type" : "label",
-				"deepness of uses" : [0, 1, 1, 1]
+				"uses" : [4, 12, 25, 27],
+				"uses deepness" : [0, 1, 1, 1]
 			},
 			"%15" : {
 				"type" : "label",
-				"deepness of uses" : [0, 1, 1]
+				"uses" : [6, 7, 21],
+				"uses deepness" : [0, 1, 1]
 			},
 			"%1" : {
 				"type" : "",
-				"deepness of uses" : [0, 1]
+				"uses" : [6, 7],
+				"uses deepness" : [0, 1]
 			},
 			"%.0" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1, 1]
+				"uses" : [7, 9, 24],
+				"uses deepness" : [1, 1, 1]
 			},
 			"%16" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [7, 24],
+				"uses deepness" : [1, 1]
 			},
 			"%5" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [8, 9],
+				"uses deepness" : [1, 1]
 			},
 			"%6" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1]
+				"uses" : [9, 10],
+				"uses deepness" : [1, 1]
 			},
 			"%7" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1]
+				"uses" : [10, 23],
+				"uses deepness" : [1, 1]
 			},
 			"%17" : {
 				"type" : "label",
-				"deepness of uses" : [1]
+				"uses" : [10],
+				"uses deepness" : [1]
 			},
 			"%8" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [13, 14],
+				"uses deepness" : [1, 1]
 			},
 			"%9" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [14, 19],
+				"uses deepness" : [1, 1]
 			},
 			"%10" : {
 				"type" : "",
-				"deepness of uses" : [1, 1]
+				"uses" : [15, 17],
+				"uses deepness" : [1, 1]
 			},
 			"%11" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [16, 17],
+				"uses deepness" : [1, 1]
 			},
 			"%12" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1, 1]
+				"uses" : [17, 18, 20],
+				"uses deepness" : [1, 1, 1]
 			},
 			"%13" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [18, 19],
+				"uses deepness" : [1, 1]
 			},
 			"%14" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [19, 20],
+				"uses deepness" : [1, 1]
 			}
 		},
 		"edges" : [
@@ -545,439 +564,548 @@
 		"nodes" : {
 			"%0" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0, 0, 0]
+				"uses" : [1, 2, 13, 24],
+				"uses deepness" : [0, 0, 0, 0]
 			},
 			"%1" : {
 				"type" : "",
-				"deepness of uses" : [0, 0, 0, 0]
+				"uses" : [1, 6, 17, 28],
+				"uses deepness" : [0, 0, 0, 0]
 			},
 			"%3" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [2, 3],
+				"uses deepness" : [0, 0]
 			},
 			"%4" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [3, 12],
+				"uses deepness" : [0, 0]
 			},
 			"%8" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0, 0, 0]
+				"uses" : [3, 10, 16, 23],
+				"uses deepness" : [0, 0, 0, 0]
 			},
 			"%2" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [5, 12],
+				"uses deepness" : [0, 0]
 			},
 			"%5" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [6, 7],
+				"uses deepness" : [0, 0]
 			},
 			"%6" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [7, 8],
+				"uses deepness" : [0, 0]
 			},
 			"%7" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [8, 9],
+				"uses deepness" : [0, 0]
 			},
 			"%9" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [13, 14],
+				"uses deepness" : [0, 0]
 			},
 			"%10" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [14, 23],
+				"uses deepness" : [0, 0]
 			},
 			"%14" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0, 0, 0]
+				"uses" : [14, 21, 27, 34],
+				"uses deepness" : [0, 0, 0, 0]
 			},
 			"%11" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [17, 18],
+				"uses deepness" : [0, 0]
 			},
 			"%12" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [18, 19],
+				"uses deepness" : [0, 0]
 			},
 			"%13" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [19, 20],
+				"uses deepness" : [0, 0]
 			},
 			"%15" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [24, 25],
+				"uses deepness" : [0, 0]
 			},
 			"%16" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [25, 34],
+				"uses deepness" : [0, 0]
 			},
 			"%20" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0, 0, 1]
+				"uses" : [25, 32, 58, 59],
+				"uses deepness" : [0, 0, 0, 1]
 			},
 			"%17" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [28, 29],
+				"uses deepness" : [0, 0]
 			},
 			"%18" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [29, 30],
+				"uses deepness" : [0, 0]
 			},
 			"%19" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [30, 31],
+				"uses deepness" : [0, 0]
 			},
 			"%21" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [35, 36],
+				"uses deepness" : [0, 0]
 			},
 			"%22" : {
 				"type" : "i32",
-				"deepness of uses" : [0, 0]
+				"uses" : [36, 37],
+				"uses deepness" : [0, 0]
 			},
 			"%23" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [37, 38],
+				"uses deepness" : [0, 0]
 			},
 			"%24" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [38, 39],
+				"uses deepness" : [0, 0]
 			},
 			"%25" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [40, 43],
+				"uses deepness" : [0, 0]
 			},
 			"%26" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [41, 43],
+				"uses deepness" : [0, 0]
 			},
 			"%27" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [42, 43],
+				"uses deepness" : [0, 0]
 			},
 			"%28" : {
 				"type" : "i32",
-				"deepness of uses" : [0]
+				"uses" : [43],
+				"uses deepness" : [0]
 			},
 			"%29" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [44, 45],
+				"uses deepness" : [0, 0]
 			},
 			"%30" : {
 				"type" : "i32",
-				"deepness of uses" : [0]
+				"uses" : [45],
+				"uses deepness" : [0]
 			},
 			"%31" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [46, 47],
+				"uses deepness" : [0, 0]
 			},
 			"%32" : {
 				"type" : "i32",
-				"deepness of uses" : [0, 0]
+				"uses" : [47, 48],
+				"uses deepness" : [0, 0]
 			},
 			"%33" : {
 				"type" : "i64",
-				"deepness of uses" : [0, 0]
+				"uses" : [48, 49],
+				"uses deepness" : [0, 0]
 			},
 			"%34" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [49, 50],
+				"uses deepness" : [0, 0]
 			},
 			"%35" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 1, 2, 2]
+				"uses" : [50, 69, 109, 149],
+				"uses deepness" : [0, 1, 2, 2]
 			},
 			"%36" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [51, 52],
+				"uses deepness" : [0, 0]
 			},
 			"%37" : {
 				"type" : "i32",
-				"deepness of uses" : [0, 0]
+				"uses" : [52, 53],
+				"uses deepness" : [0, 0]
 			},
 			"%38" : {
 				"type" : "i64",
-				"deepness of uses" : [0, 0]
+				"uses" : [53, 54],
+				"uses deepness" : [0, 0]
 			},
 			"%39" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [54, 55],
+				"uses deepness" : [0, 0]
 			},
 			"%40" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 1, 1, 2]
+				"uses" : [55, 66, 71, 151],
+				"uses deepness" : [0, 1, 1, 2]
 			},
 			"%41" : {
 				"type" : "label",
-				"deepness of uses" : [0, 1, 1, 1]
+				"uses" : [56, 64, 90, 92],
+				"uses deepness" : [0, 1, 1, 1]
 			},
 			"%60" : {
 				"type" : "label",
-				"deepness of uses" : [0, 1, 1]
+				"uses" : [58, 59, 86],
+				"uses deepness" : [0, 1, 1]
 			},
 			"%.01" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1, 1, 1, 1, 1, 1]
+				"uses" : [59, 61, 65, 67, 68, 70, 89],
+				"uses deepness" : [1, 1, 1, 1, 1, 1, 1]
 			},
 			"%61" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [59, 89],
+				"uses deepness" : [1, 1]
 			},
 			"%42" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [60, 61],
+				"uses deepness" : [1, 1]
 			},
 			"%43" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1]
+				"uses" : [61, 62],
+				"uses deepness" : [1, 1]
 			},
 			"%44" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1, 1]
+				"uses" : [62, 77, 85],
+				"uses deepness" : [1, 1, 1]
 			},
 			"%62" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1, 1, 2]
+				"uses" : [62, 100, 101, 102],
+				"uses deepness" : [1, 1, 1, 2]
 			},
 			"%45" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [65, 66],
+				"uses deepness" : [1, 1]
 			},
 			"%46" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [66, 67],
+				"uses deepness" : [1, 1]
 			},
 			"%47" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [68, 69],
+				"uses deepness" : [1, 1]
 			},
 			"%48" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [69, 73],
+				"uses deepness" : [1, 1]
 			},
 			"%49" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [70, 71],
+				"uses deepness" : [1, 1]
 			},
 			"%50" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [71, 72],
+				"uses deepness" : [1, 1]
 			},
 			"%51" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [72, 73],
+				"uses deepness" : [1, 1]
 			},
 			"%52" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 1]
+				"uses" : [73, 74],
+				"uses deepness" : [1, 1]
 			},
 			"%53" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1]
+				"uses" : [74, 75],
+				"uses deepness" : [1, 1]
 			},
 			"%54" : {
 				"type" : "label",
-				"deepness of uses" : [1]
+				"uses" : [75],
+				"uses deepness" : [1]
 			},
 			"%59" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1]
+				"uses" : [75, 88],
+				"uses deepness" : [1, 1]
 			},
 			"%55" : {
 				"type" : "",
-				"deepness of uses" : [1, 1]
+				"uses" : [78, 81],
+				"uses deepness" : [1, 1]
 			},
 			"%56" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [79, 80],
+				"uses deepness" : [1, 1]
 			},
 			"%57" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [80, 81],
+				"uses deepness" : [1, 1]
 			},
 			"%58" : {
 				"type" : "i32",
-				"deepness of uses" : [1]
+				"uses" : [81],
+				"uses deepness" : [1]
 			},
 			"%63" : {
 				"type" : "i32",
-				"deepness of uses" : [1]
+				"uses" : [93],
+				"uses deepness" : [1]
 			},
 			"%64" : {
 				"type" : "ptr",
-				"deepness of uses" : [1, 1]
+				"uses" : [94, 95],
+				"uses deepness" : [1, 1]
 			},
 			"%65" : {
 				"type" : "i32",
-				"deepness of uses" : [1]
+				"uses" : [95],
+				"uses deepness" : [1]
 			},
 			"%66" : {
 				"type" : "",
-				"deepness of uses" : [1, 1]
+				"uses" : [96, 97],
+				"uses deepness" : [1, 1]
 			},
 			"%67" : {
 				"type" : "i32",
-				"deepness of uses" : [1]
+				"uses" : [97],
+				"uses deepness" : [1]
 			},
 			"%68" : {
 				"type" : "label",
-				"deepness of uses" : [1, 2, 2, 2]
+				"uses" : [98, 107, 121, 123],
+				"uses deepness" : [1, 2, 2, 2]
 			},
 			"%81" : {
 				"type" : "label",
-				"deepness of uses" : [1, 1, 2, 2]
+				"uses" : [100, 101, 102, 117],
+				"uses deepness" : [1, 1, 2, 2]
 			},
 			"%.1" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 2, 2, 2, 2]
+				"uses" : [101, 104, 108, 113, 120],
+				"uses deepness" : [1, 2, 2, 2, 2]
 			},
 			"%82" : {
 				"type" : "i32",
-				"deepness of uses" : [1, 2]
+				"uses" : [101, 120],
+				"uses deepness" : [1, 2]
 			},
 			"%.0" : {
 				"type" : "i64",
-				"deepness of uses" : [2, 2, 2, 2, 2]
+				"uses" : [102, 116, 133, 134, 138],
+				"uses deepness" : [2, 2, 2, 2, 2]
 			},
 			"%80" : {
 				"type" : "i64",
-				"deepness of uses" : [2, 2]
+				"uses" : [102, 116],
+				"uses deepness" : [2, 2]
 			},
 			"%69" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [103, 104],
+				"uses deepness" : [2, 2]
 			},
 			"%70" : {
 				"type" : "label",
-				"deepness of uses" : [2, 2]
+				"uses" : [104, 105],
+				"uses deepness" : [2, 2]
 			},
 			"%71" : {
 				"type" : "label",
-				"deepness of uses" : [2, 2]
+				"uses" : [105, 119],
+				"uses deepness" : [2, 2]
 			},
 			"%83" : {
 				"type" : "label",
-				"deepness of uses" : [2, 2, 2]
+				"uses" : [105, 137, 145],
+				"uses deepness" : [2, 2, 2]
 			},
 			"%72" : {
 				"type" : "i32",
-				"deepness of uses" : [2, 2]
+				"uses" : [108, 109],
+				"uses deepness" : [2, 2]
 			},
 			"%73" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [109, 110],
+				"uses deepness" : [2, 2]
 			},
 			"%74" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [110, 111],
+				"uses deepness" : [2, 2]
 			},
 			"%75" : {
 				"type" : "i32",
-				"deepness of uses" : [2]
+				"uses" : [111],
+				"uses deepness" : [2]
 			},
 			"%76" : {
 				"type" : "",
-				"deepness of uses" : [2, 2]
+				"uses" : [112, 114],
+				"uses deepness" : [2, 2]
 			},
 			"%77" : {
 				"type" : "i32",
-				"deepness of uses" : [2, 2]
+				"uses" : [113, 114],
+				"uses deepness" : [2, 2]
 			},
 			"%78" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [114, 115],
+				"uses deepness" : [2, 2]
 			},
 			"%79" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [115, 116],
+				"uses deepness" : [2, 2]
 			},
 			"%84" : {
 				"type" : "i32",
-				"deepness of uses" : [2]
+				"uses" : [124],
+				"uses deepness" : [2]
 			},
 			"%85" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [125, 126],
+				"uses deepness" : [2, 2]
 			},
 			"%86" : {
 				"type" : "i32",
-				"deepness of uses" : [2, 2]
+				"uses" : [126, 129],
+				"uses deepness" : [2, 2]
 			},
 			"%87" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [127, 128],
+				"uses deepness" : [2, 2]
 			},
 			"%88" : {
 				"type" : "i32",
-				"deepness of uses" : [2, 2]
+				"uses" : [128, 129],
+				"uses deepness" : [2, 2]
 			},
 			"%89" : {
 				"type" : "i64",
-				"deepness of uses" : [2, 2]
+				"uses" : [129, 132],
+				"uses deepness" : [2, 2]
 			},
 			"%90" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [130, 131],
+				"uses deepness" : [2, 2]
 			},
 			"%91" : {
 				"type" : "i32",
-				"deepness of uses" : [2, 2]
+				"uses" : [131, 132],
+				"uses deepness" : [2, 2]
 			},
 			"%92" : {
 				"type" : "i64",
-				"deepness of uses" : [2, 2, 2, 2]
+				"uses" : [132, 133, 134, 138],
+				"uses deepness" : [2, 2, 2, 2]
 			},
 			"%93" : {
 				"type" : "i32",
-				"deepness of uses" : [2]
+				"uses" : [133],
+				"uses deepness" : [2]
 			},
 			"%94" : {
 				"type" : "label",
-				"deepness of uses" : [2, 2]
+				"uses" : [134, 135],
+				"uses deepness" : [2, 2]
 			},
 			"%95" : {
 				"type" : "label",
-				"deepness of uses" : [2, 2]
+				"uses" : [135, 145],
+				"uses deepness" : [2, 2]
 			},
 			"%101" : {
 				"type" : "label",
-				"deepness of uses" : [2, 2]
+				"uses" : [135, 143],
+				"uses deepness" : [2, 2]
 			},
 			"%96" : {
 				"type" : "i64",
-				"deepness of uses" : [2, 2]
+				"uses" : [138, 141],
+				"uses deepness" : [2, 2]
 			},
 			"%97" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [139, 140],
+				"uses deepness" : [2, 2]
 			},
 			"%98" : {
 				"type" : "i32",
-				"deepness of uses" : [2, 2]
+				"uses" : [140, 141],
+				"uses deepness" : [2, 2]
 			},
 			"%99" : {
 				"type" : "i64",
-				"deepness of uses" : [2, 2]
+				"uses" : [141, 142],
+				"uses deepness" : [2, 2]
 			},
 			"%100" : {
 				"type" : "i32",
-				"deepness of uses" : [2]
+				"uses" : [142],
+				"uses deepness" : [2]
 			},
 			"%102" : {
 				"type" : "",
-				"deepness of uses" : [2, 2]
+				"uses" : [146, 147],
+				"uses deepness" : [2, 2]
 			},
 			"%103" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [147, 148],
+				"uses deepness" : [2, 2]
 			},
 			"%104" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [149, 150],
+				"uses deepness" : [2, 2]
 			},
 			"%105" : {
 				"type" : "ptr",
-				"deepness of uses" : [2, 2]
+				"uses" : [151, 152],
+				"uses deepness" : [2, 2]
 			}
 		},
 		"edges" : [

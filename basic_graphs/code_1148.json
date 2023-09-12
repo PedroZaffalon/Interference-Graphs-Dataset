@@ -3,51 +3,63 @@
 		"nodes" : {
 			"%0" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0, 0, 0]
+				"uses" : [1, 2, 8, 12],
+				"uses deepness" : [0, 0, 0, 0]
 			},
 			"%2" : {
 				"type" : "",
-				"deepness of uses" : [0, 0, 0]
+				"uses" : [2, 3, 7],
+				"uses deepness" : [0, 0, 0]
 			},
 			"%3" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [3, 4],
+				"uses deepness" : [0, 0]
 			},
 			"%4" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [4, 5],
+				"uses deepness" : [0, 0]
 			},
 			"%5" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [5, 6],
+				"uses deepness" : [0, 0]
 			},
 			"%6" : {
 				"type" : "",
-				"deepness of uses" : [0]
+				"uses" : [6],
+				"uses deepness" : [0]
 			},
 			"%6(%class.A*" : {
 				"type" : "",
-				"deepness of uses" : [0]
+				"uses" : [7],
+				"uses deepness" : [0]
 			},
 			"%7" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [8, 9],
+				"uses deepness" : [0, 0]
 			},
 			"%8" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [9, 10],
+				"uses deepness" : [0, 0]
 			},
 			"%9" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [10, 11],
+				"uses deepness" : [0, 0]
 			},
 			"%10" : {
 				"type" : "",
-				"deepness of uses" : [0]
+				"uses" : [11],
+				"uses deepness" : [0]
 			},
 			"%10(%class.B*" : {
 				"type" : "",
-				"deepness of uses" : [0]
+				"uses" : [12],
+				"uses deepness" : [0]
 			}
 		},
 		"edges" : [
@@ -167,11 +179,13 @@
 		"nodes" : {
 			"%0" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0, 0]
+				"uses" : [1, 2, 4],
+				"uses deepness" : [0, 0, 0]
 			},
 			"%2" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [2, 3],
+				"uses deepness" : [0, 0]
 			}
 		},
 		"edges" : [
@@ -186,23 +200,28 @@
 		"nodes" : {
 			"%1" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0, 0, 0]
+				"uses" : [2, 5, 8, 10],
+				"uses deepness" : [0, 0, 0, 0]
 			},
 			"%2" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0, 0]
+				"uses" : [3, 6, 7],
+				"uses deepness" : [0, 0, 0]
 			},
 			"%3" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0, 0]
+				"uses" : [4, 11, 12],
+				"uses deepness" : [0, 0, 0]
 			},
 			"%4" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [8, 9],
+				"uses deepness" : [0, 0]
 			},
 			"%5" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [10, 11],
+				"uses deepness" : [0, 0]
 			}
 		},
 		"edges" : [

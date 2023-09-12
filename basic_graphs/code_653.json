@@ -3,27 +3,33 @@
 		"nodes" : {
 			"%1" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0, 0]
+				"uses" : [2, 4, 5],
+				"uses deepness" : [0, 0, 0]
 			},
 			"%2" : {
 				"type" : "i32",
-				"deepness of uses" : [0]
+				"uses" : [3],
+				"uses deepness" : [0]
 			},
 			"%3" : {
 				"type" : "i32",
-				"deepness of uses" : [0]
+				"uses" : [4],
+				"uses deepness" : [0]
 			},
 			"%4" : {
 				"type" : "double*",
-				"deepness of uses" : [0, 0]
+				"uses" : [5, 6],
+				"uses deepness" : [0, 0]
 			},
 			"%5" : {
 				"type" : "double",
-				"deepness of uses" : [0, 0]
+				"uses" : [6, 7],
+				"uses deepness" : [0, 0]
 			},
 			"%6" : {
 				"type" : "i32",
-				"deepness of uses" : [0]
+				"uses" : [7],
+				"uses deepness" : [0]
 			}
 		},
 		"edges" : [

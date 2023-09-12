@@ -3,43 +3,53 @@
 		"nodes" : {
 			"%0" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [1, 2],
+				"uses deepness" : [0, 0]
 			},
 			"%2" : {
 				"type" : "i32",
-				"deepness of uses" : [0, 0]
+				"uses" : [2, 3],
+				"uses deepness" : [0, 0]
 			},
 			"%3" : {
 				"type" : "ptr",
-				"deepness of uses" : [0, 0]
+				"uses" : [4, 8],
+				"uses deepness" : [0, 0]
 			},
 			"%4" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0, 0]
+				"uses" : [5, 11, 14],
+				"uses deepness" : [0, 0, 0]
 			},
 			"%7" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [5, 9],
+				"uses deepness" : [0, 0]
 			},
 			"%1" : {
 				"type" : "",
-				"deepness of uses" : [0, 0]
+				"uses" : [7, 14],
+				"uses deepness" : [0, 0]
 			},
 			"%5" : {
 				"type" : "",
-				"deepness of uses" : [0]
+				"uses" : [8],
+				"uses deepness" : [0]
 			},
 			"%6" : {
 				"type" : "label",
-				"deepness of uses" : [0]
+				"uses" : [9],
+				"uses deepness" : [0]
 			},
 			"%8" : {
 				"type" : "i32",
-				"deepness of uses" : [0, 0]
+				"uses" : [15, 17],
+				"uses deepness" : [0, 0]
 			},
 			"%9" : {
 				"type" : "i32",
-				"deepness of uses" : [0, 0]
+				"uses" : [17, 18],
+				"uses deepness" : [0, 0]
 			}
 		},
 		"edges" : [
@@ -124,11 +134,13 @@
 		"nodes" : {
 			"%0" : {
 				"type" : "label",
-				"deepness of uses" : [0, 0]
+				"uses" : [1, 2],
+				"uses deepness" : [0, 0]
 			},
 			"%2" : {
 				"type" : "ptr",
-				"deepness of uses" : [0]
+				"uses" : [2],
+				"uses deepness" : [0]
 			}
 		},
 		"edges" : [
