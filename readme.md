@@ -1,6 +1,6 @@
-# PBQP Graphs Dataset
+# Interference Graphs Dataset
 ---
-#### A PBQP interference graph dataset for machine learning models to solve register allocation.
+#### A Interference interference graph dataset for machine learning models to solve register allocation.
 
 This dataset contains 5889 code files, or 24688 functions interference graphs. This dataset is organized as follows:
 
@@ -53,3 +53,5 @@ The value related to the key `edges` is an array of edges. Each edge contains at
     }
 }
 ```
+---
+More info in the paper [Interference Graph Dataset for Machine Learning-Based Register Allocation](https://ieeexplore.ieee.org/document/10720063).
