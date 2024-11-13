@@ -26,13 +26,13 @@ The value related to the key `edges` is an array of edges. Each edge contains at
             "%1" : {
                 "type" : "i8",
                 "uses" : [1,2,3,4,6],
-                "deepness of uses" : [1,1,2,3,4],
+                "uses deepness" : [1,1,2,3,4],
                 "cost array" : [0,0,0,0,9]
             },
             "%2" : {
                 "type" : "ptr",
                 "uses" : [5,6,8,11],
-                "deepness of uses" : [1,2,2,1],
+                "uses deepness" : [1,2,2,1],
                 "cost array" : [0,0,0,0,6]
             }
 
